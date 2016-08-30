@@ -29,6 +29,7 @@ public class StateMachine : MonoBehaviour {
 
     #region StateMachine Methods 
 
+    //public accessible method to transition to Run State
     public void Run() {
         Transition(State.Running);
     }
